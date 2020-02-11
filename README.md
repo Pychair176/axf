@@ -1,5 +1,5 @@
 # Table Structure
-商品表：products
+Products：products
     name
     longName
     productId
@@ -20,13 +20,13 @@
     isDelete
 
 
-分组表：categories
+Ctg：categories
     categoryId
     categoryName
     sort 
     isDelete
 
-子组表：childcategories
+Childctg：childcategories
     childId   
     childName
     sort
@@ -35,7 +35,7 @@
     
 
     
-轮播图表：sliders
+Sliders：sliders
     name
     img
     sort
@@ -43,7 +43,7 @@
 
 
 
-主体信息表：maindescriptions
+Maindesc：maindescriptions
     categoryId
     categoryName
     sort
@@ -57,7 +57,7 @@
 
 
 
-用户表：
+Users：
 账号
 密码
 手机号
@@ -82,7 +82,7 @@ token值   （唯一）
 
 
 
-收货地址表：
+Shipping_address：
     联系人姓名
     性别
     电话
@@ -95,7 +95,7 @@ token值   （唯一）
 
 
 
-购物车：
+Shopping_cart：
     所属用户    外键
     商品        外键
     所属订单    允许为空
@@ -108,7 +108,7 @@ token值   （唯一）
 
 
 
-订单表：
+Orders：
     订单编号    主键
     所属用户    外键
     邮寄地址    外键
